@@ -23,17 +23,15 @@ Query-api-service
     └── application.properties
 
 Features
-
-Query call_detail_records table using date range and optional MSISDN/IMSI filters.
-
-Returns results as JSON arrays using CallDetailRecordResponse.
-
-Spring Boot + Spring Data JPA for seamless database integration.
-
-PostgreSQL support.
-
-Open for testing without authentication.
-
+Query CDRs by:
+Date range
+MSISDN (optional)
+IMSI (optional)
+Returns filtered records in JSON format
+Uses PostgreSQL as the database
+API documentation with Swagger UI
+Fully functional with unit-tested endpoints
+Easily switch to H2 in-memory DB for testing
 Tech Stack
 
 Backend: Spring Boot 17
