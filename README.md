@@ -52,7 +52,7 @@ Query-api-service
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/Query-api-service.git
+git clone https://github.com/akram3855/Query-api-service.git
 cd Query-api-service
 ```
 
@@ -201,4 +201,4 @@ mvn spring-boot:run
 
 ---
 
-**Reference:** Your GitHub repository link should replace `YOUR_USERNAME` in the clone command.
+
